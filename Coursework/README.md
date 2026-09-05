@@ -1,5 +1,8 @@
-Tracked progress and solutions for structured coding platforms.
+# Coursework
 
-- `/freecodecamp` - Scientific Computing with Python projects.
-- `/algorithms` - Implementations of standard algorithms (Binary Search, etc.).
-- `/logic-puzzles` - Scripts solving specific math or logic problems.
+This folder serves as an archive for code written during structured tutorials, workshops, and certification programs.
+
+## Contents
+
+* **Scientific Computing Projects:** Final project builds from structured coding challenges (e.g., formatters, calculators, and probability tools).
+* **Workshop Code:** Step-by-step code files created while following along with specific course modules, kept as a reference for how specific libraries are utilized.
