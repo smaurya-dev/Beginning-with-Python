@@ -3,5 +3,5 @@ def main():
 
 def print_row(width):
     print("?" * width, end="")
-    
+
 main()
