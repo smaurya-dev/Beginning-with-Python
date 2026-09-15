@@ -3,5 +3,5 @@ def print_table(number):
         product = number * i
         print(number, "x", i, "=", product)
 
-n = 7
+n = int(input("What's n? "))
 print_table(n)
