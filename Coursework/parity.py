@@ -1,13 +1,12 @@
-def main():
-    x = int(input("What's x? "))
-    if is_even(x):
-        print("Even")
-    else:
-        print("Odd")
+def check_even_odd():
+    try:
+        user_input = input("Enter an integer: ")
+        number = int(user_input)
+        if number % 2 == 0:
+            print(f"{number} is Even.")
+        else:
+            print(f"{number} is Odd.")
+    except ValueError:
+        print("Invalid input! Please enter a valid integer.")
 
-
-def is_even(n):
-    return n % 2 == 0
-
-
-main()
+check_even_odd()
