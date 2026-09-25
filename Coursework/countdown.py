@@ -3,5 +3,5 @@ def countdown(start):
         print(i)
     print("Go!")
 
-seconds = 5
+seconds = int(input("Enter the Starting time: "))
 countdown(seconds)
