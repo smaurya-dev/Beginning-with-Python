@@ -6,4 +6,4 @@ students = [
 ]
 
 for student in students:
-    print(student["name"], student["house"], student["patronus"], sep=", ")
+    print(f"{student['name']}, {student['house']}, {student['patronus']}")
